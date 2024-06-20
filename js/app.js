@@ -4,20 +4,10 @@ let gameOne = document.getElementById("game-1");
 let gameTwo = document.getElementById("game-2");
 let gameThree = document.getElementById("game-3");
 
-let gameList = [gameOne, gameTwo, gameThree];
-
-console.log(gameList);
-
-console.log()
-
-
-
+// Função alterarStatus
 function alterarStatus(game) {
 
-    console.log("Botão apertado");
-
-
-
+    //Início da cascata de IFs e ELSEs
     if (game == 1) {
 
         let gameOneImg = document.getElementById("game-1-img");
@@ -85,29 +75,5 @@ function alterarStatus(game) {
         }
 
     }
-    // gameThreeButton.className = dashboard__item__button;
 
-
-
-    // gameThree.innerHTML = "Teste";
-
-
-    // if (gameThree.className == "dashboard__item__img dashboard__item__img--rented"){
-    //     gameThree.className = "dashboard__items__item";
-    //     console.log(gameThree.className)
-    // };
-
-    // if (gameThree.className == "dashboard__item__button dashboard__item__button--return"){
-    //     gameThree.className == "dashboard__item__button";
-    // };
-};
-//     imagem:
-//     deixar de ser classe "dashboard__item__img dashboard__item__img--rented"
-//     para ser classe "dashboard__items__item"
-
-//     Botão:
-//     deixar de ser classe "dashboard__item__button dashboard__item__button--return"
-//     para ser classe "dashboard__item__button"
-
-
-// };
+}
